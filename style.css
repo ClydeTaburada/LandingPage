@@ -1,0 +1,57 @@
+.navbar {
+    height: 10vqh;
+}
+
+.navbar-brand {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 45px;
+    color: #304438;
+ 
+}
+
+.btn {
+    padding: 14px 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    border-radius: 0;
+    transition: all ease-in-out .5s;
+
+}
+
+.btn-brand {
+    background-color: #304438;
+    color: #FFF;
+}
+
+.btn-brand:hover {
+    border: 2px solid #304438;
+    color: #304438;
+}
+
+.navbar .nav-link {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    
+}
+
+#banner {
+    background: linear-gradient(90deg, rgb(255, 255, 255) 0%, rgba(255,255,255,0.37298669467787116) 53%), url('bg1.jpg');
+    height: 90vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 75px;
+    color: #304438;
+}
+
+#banner p {
+    font-size: 20px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
