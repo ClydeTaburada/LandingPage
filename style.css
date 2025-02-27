@@ -21,6 +21,7 @@
 .btn-brand {
     background-color: #304438;
     color: #FFF;
+    border: 2px solid #304438;
 }
 
 .btn-brand:hover {
@@ -53,5 +54,38 @@ h1 {
 #banner p {
     font-size: 20px;
    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.card-img-top {
+    width:35% ;
+}  
+
+.card {
+    padding: 25px 20px;
+    border: 3px solid #304438;
+    transition: all ease-in .4s;
+}
+
+.card:hover {
+    box-shadow: 0 0 45px 0 #3044384d;
+    transform: scale(1.1);
+    background-color: #DAC0A2;
+    border-color: #FFF;
+}
+
+.card:hover .card-title,
+.card:hover .card-text {
+    color: #FFF;
+}
+
+section {
+    padding: 100px 0;
+}
+
+#sugpon h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 65px;
+    color: #304438;
+    margin-bottom: 30px;
 }
 
